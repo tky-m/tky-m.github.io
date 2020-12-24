@@ -34,11 +34,11 @@ const openModal = function(url) {
     }
 }
 
-document.querySelector('#js-modal-close')
+/*document.querySelector('#js-modal-close')
     .addEventListener('click', () => {
         document.querySelector('#js-modal').classList.remove('is-show')
         checkImage()
-    })
+    })*/
 
 navigator.mediaDevices
     .getUserMedia({
