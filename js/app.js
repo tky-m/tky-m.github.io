@@ -26,9 +26,12 @@ const checkImage = () => {
 }
 
 const openModal = function(url) {
-    document.querySelector('#js-result').innerText = url
-    document.querySelector('#js-link').setAttribute('href', url)
-    document.querySelector('#js-modal').classList.add('is-show')
+    //document.querySelector('#js-result').innerText = url
+    //document.querySelector('#js-link').setAttribute('href', url)
+    //document.querySelector('#js-modal').classList.add('is-show')
+    if (url == "index2.html") {
+        window.location.href = url;
+    }
 }
 
 document.querySelector('#js-modal-close')
